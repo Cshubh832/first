@@ -14,7 +14,7 @@ class RandomWordsState extends State<RandomWords> {
     final wordPair = WordPair.random();
     return Text(wordPair.asPascalCase);
   }
-
+}
 
 class MyApp extends StatelessWidget {
   @override
